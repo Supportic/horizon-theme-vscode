@@ -10,7 +10,8 @@
   "scripts": {
     "build": "npm run build:dark && npm run build:bright",
     "build:dark": "node src/dark/build",
-    "build:bright": "node src/bright/build"
+    "build:bright": "node src/bright/build",
+    "dev:dark": "nodemon --watch src/dark src/dark/build.js"
   },
   "engines": {
     "vscode": "^1.26.0"
